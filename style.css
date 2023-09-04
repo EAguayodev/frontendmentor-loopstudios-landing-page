@@ -122,7 +122,8 @@ h2 {
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
-    line-height: 25px; 
+    line-height: 25px;
+    opacity: 0.4994;
 }
 
 .container .flex{
