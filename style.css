@@ -88,7 +88,8 @@ header h1 {
     color: var(--white);
     font-weight: 400;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 60px;
+    font-size: 72px;
+    font-style: normal;
     font-weight: 300;
     margin: 2rem 0 0 2rem;
 }
