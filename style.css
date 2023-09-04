@@ -98,13 +98,6 @@ header h1 {
     margin: 2rem 0 0 2rem;
 }
 
-h2 {
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 400;
-    font-size: 30px;    
-    margin-left: 20px;
-}
-
 /************* LEADER SECTION STYLING ***************/
 .leader-section h2 {
     font-size: 48px;
@@ -146,6 +139,12 @@ h2 {
 
 /************ CREATION STYLING ***************************/
 .creation h2 {
+    font-family: Josefin Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 48px; /* 100% */
+    text-transform: uppercase;
     margin-left: 50px;
 }
 
@@ -174,7 +173,10 @@ h2 {
     margin: 22rem 0 0 2rem;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 300;
-    font-size: 25px;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 32px;
+    text-transform: uppercase;
 }
 
 .box {
