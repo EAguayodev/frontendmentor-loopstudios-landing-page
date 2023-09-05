@@ -438,17 +438,17 @@ header h1{
 }
 
    .box h3{
-    color: var(--white);
-    margin: 8rem 0 0 2rem;
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 300;
-    font-size: 25px;
+      color: var(--white);
+      margin: 3rem 0 0 2rem
+      font-family: 'Josefin Sans', sans-serif;
+      font-weight: 300;
+      font-size: 25px;
 }
 
    .box {
-       height: 120px;
-       width: 327px;
-       margin: -52px;
+      height: 120px;
+      width: 327px;
+      margin: 23px;
    }
 
    .box-1 {
