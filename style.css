@@ -243,6 +243,10 @@ footer .flex {
 }
 
 footer .flex ul {
+    font-size: 15px;
+    font-family: Alata;
+    font-style: normal;
+    font-weight: 400;
     display: inline-flex;
     margin-left: -5rem;
     margin-right: 1rem;
