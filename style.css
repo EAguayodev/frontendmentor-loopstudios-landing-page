@@ -439,7 +439,7 @@ header h1{
 
    .box h3{
       color: var(--white);
-      margin: 3rem 0 0 2rem
+      margin: 3rem 0 0 2rem;
       font-family: 'Josefin Sans', sans-serif;
       font-weight: 300;
       font-size: 25px;
