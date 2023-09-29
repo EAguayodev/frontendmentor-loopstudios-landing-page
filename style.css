@@ -502,7 +502,7 @@ header h1{
        justify-content: center;
    }
 
-    footer .social{
+    footer ul.social{
     display: flex;
     justify-content: center;
 }
