@@ -498,10 +498,11 @@ header h1{
    
     footer .flex ul {
        display: flex;
+       flex-direction: column;
        justify-content: center;
    }
 
-.social{
+    footer .social{
     display: flex;
     justify-content: center;
 }
