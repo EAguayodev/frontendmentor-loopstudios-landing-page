@@ -496,13 +496,15 @@ header h1{
    }
 
    
-    footer .flex .foot-nav {
+   footer .flex .foot-nav {
        display: flex;
        flex-direction: column;
        justify-content: center;
+       position: relative;
+       left: 2.5rem;
    }
 
-    footer ul.social{
+   footer ul.social{
     display: flex;
     justify-content: center;
 }
