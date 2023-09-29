@@ -496,7 +496,7 @@ header h1{
    }
 
    
-    footer .flex ul {
+    footer .flex .foot-nav {
        display: flex;
        flex-direction: column;
        justify-content: center;
