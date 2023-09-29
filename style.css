@@ -501,7 +501,7 @@ header h1{
        flex-direction: column;
        justify-content: center;
        position: relative;
-       left: 4rem;
+       left: 4.5rem;
    }
 
    footer ul.social{
