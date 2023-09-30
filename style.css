@@ -299,9 +299,11 @@ header h1{
 .box-line {
     width: 327px;
     height: 196px;
-    margin-top: -3rem;
-    margin-left: 3rem;
-}
+    position: relative;
+    top: -20rem;
+    left: -144px;
+   
+}    
 
 .logo {
     width: 144px;
