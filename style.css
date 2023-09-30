@@ -307,7 +307,7 @@ header h1{
     width: 144px;
     position: relative;
     top: 6rem;
-    left: 1rem;
+    left: -7rem;
     z-index: 5;
 }
 
@@ -408,8 +408,7 @@ header h1{
     cursor: pointer;
     left: 37px;
     top: -14rem;
-    margin-top: -22.5rem;
-    margin-right: 9rem;
+    position: relative;
     z-index: 5;
 }
 
