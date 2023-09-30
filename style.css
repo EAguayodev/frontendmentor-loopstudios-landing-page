@@ -418,7 +418,9 @@ header h1{
     background-color: var(--black);
     height: 667px;
     width: 375px;
-    right: 237px;
+    position: relative;
+    right: 457px;
+    z-index: 4;
 }
 
 /* Style Links in navigation menu */
