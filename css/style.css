@@ -65,9 +65,9 @@ header ul li {
     max-width: 100%;
 }
 
-/* .menu {
+.menu {
     margin: 3rem 5rem 0 2rem;
-} */
+}
 
 .icon-open,
 .hamburger {
@@ -376,7 +376,7 @@ footer small {
     }
 
     .menu.show {
-        transition: 2s;
+        transition: 12s;
         animation: cubic-bezier(0.165, 0.84, 0.44, 1);
         flex-direction: column;
         font-family: Josefin Sans;
@@ -386,8 +386,8 @@ footer small {
         line-height: 25px;
         text-transform: uppercase;
         position: fixed;
-        right: 2.2rem;
-        top: 0;
+        right: -3rem;
+        top: -3rem;
         width: 375px;
         height: 667px;
         color: var(--white);
