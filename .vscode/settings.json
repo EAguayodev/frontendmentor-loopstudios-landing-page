@@ -1,7 +1,0 @@
-{
-    "prettier.configPath": "true",
-    "prettier.requireConfig": true,
-    "prettier.resolveGlobalModules": true,
-    "prettier.withNodeModules": true,
-    "prettier.useTabs": true
-}
