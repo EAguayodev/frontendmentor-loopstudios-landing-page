@@ -464,6 +464,10 @@ footer small {
     .btn {
         margin-top: -4rem;
         margin-left: 7rem;
+        background-color: transparent;
+            cursor: pointer;
+            padding: 10px;
+            width: 160px;
     }
 
     .creation-flex{
