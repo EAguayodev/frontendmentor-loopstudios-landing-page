@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
 
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -156,6 +155,11 @@ header h1 {
     margin-left: 50px;
 }
 
+.creation-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
 .wrapper {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -164,9 +168,7 @@ header h1 {
 
 .btn {
     background-color: transparent;
-    float: right;
     cursor: pointer;
-    margin: -4rem 5rem 0 -3rem;
     padding: 10px;
     width: 160px;
 }
@@ -461,8 +463,12 @@ footer small {
 
     .btn {
         margin-top: -4rem;
-        margin-right: 12rem;
-        margin-left: -2rem;
+        margin-left: 7rem;
+    }
+
+    .creation-flex{
+        flex-direction: column;
+        justify-content: center;
     }
 
     .wrapper {
