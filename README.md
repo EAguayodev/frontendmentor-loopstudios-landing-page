@@ -1,6 +1,5 @@
 # Frontend Mentor - Loopstudios landing page solution
 
-This is a solution to the [Loopstudios landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/loopstudios-landing-page-N88J5Onjw). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -17,86 +16,97 @@ This is a solution to the [Loopstudios landing page challenge on Frontend Mentor
 - [Acknowledgments](#acknowledgments)
 
 
-## Overview
-
-### The challenge
-
-Users should be able to:
-
-- View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
-
-### Screenshot
-
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/EAguayodev/frontendmentor-loopstudios-landing-page)
+- Live Site URL: (https://frontendmentor-loopstudios-landing-page-mu.vercel.app/)
 
-## My process
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
 - CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
+- Desktop-first workflow
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I learned how to create two separate menu designs to display differently depending on the users device. Apply the clip-path property to clip the main image in the challenge as well as apply css grid methods.
 
 To see how you can add code snippets, see below:
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<header>
+    <nav class="navbar">
+      <a href="index.html">
+        <img class="logo" src="images/logo.svg" alt="logo">
+      </a>
+
+      <button type="button" class="hamburger" id="hamburger">
+        <img class="open" id="icon-open" src="images/icon-hamburger.svg" alt="hamburger">
+      </button>
+
+      <ul class="menu show" id="menu-list">
+        <img class="icon-close" id="icon-close" src="images/icon-close.svg" alt="close">
+        <li>
+          <a href="#about">
+            About
+          </a>
+        </li>
+        <li>
+          <a href="#careers">
+            Careers
+          </a>
+        </li>
+        <li>
+          <a href="#events">
+            Events
+          </a>
+        </li>
+        <li>
+          <a href="#products">
+            Products
+          </a>
+        </li>
+        <li>
+          <a href="#support">
+            Support
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="box-line">
+      <h1>
+        IMMERSIVE EXPERIENCES THAT DELIVER
+      </h1>
+    </div>
+</header>
 ```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.interactive_img {
+    margin-left: -1rem;
+    margin-top: -6rem;
+    margin-bottom: 7rem;
+    clip-path: polygon(0% 15%, 0 0, 15% 0%, 85% 0%, 100% 0, 100% 15%, 100% 40%, 78% 40%, 78% 100%, 0 100%, 0% 85%);
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+For continued development I plan along the way to do the following:
+- Continue the learning path for advanced css techniques.
+- Impliment scss as my main css processor for future challenges.
+- Use the next 5 months to continue diving deep into advanced css techniques, and Javascript.
 
 
 ### Useful resources
 
-- []() - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- []() - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [https://bennettfeely.com/clippy/] - This resource helped me find my solution to clip the bottom right of the image by applying the clip-path property to the image..
+
 
 
 ## Author
 
-- Website - [Eric Aguayo](https://www.ericaguayo.com)
+- Website - [Eric Aguayo Email Marketer | Content editor portfolio](https://www.ericaguayo.com)
 - Frontend Mentor - [@EAguayodev](https://www.frontendmentor.io/profile/yourusername)
 - Twitter - [@yourusername](https://www.twitter.com/)
-
-
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-

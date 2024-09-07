@@ -24,10 +24,11 @@ header {
     background-image: url('../images/desktop/image-hero.jpg');
     background-repeat: no-repeat;
     height: 800px;
+    width: 90rem;
+    max-width: 100%;
 }
 
 .navbar {
-    /* background-color: transparent; */
     display: flex;
     justify-content: space-between;
 }
@@ -59,7 +60,7 @@ header ul li {
 .container {
     padding: 0 20px;
     margin: 0 auto;
-    width: 1200px;
+    width: 90rem;
     max-width: 100%;
 }
 
@@ -77,7 +78,7 @@ header ul li {
     cursor: pointer;
 }
 
-#menu li:hover {
+.menu li:hover {
     border-bottom: 2px solid var(--white);
     border-width: 30%;
     text-decoration: none;
@@ -111,17 +112,23 @@ header h1 {
     font-weight: 300;
     line-height: 48px;
     text-transform: uppercase;
-    width: 445px;
+    position: relative;
+    top: 1.5rem;
+    right: 4rem;
+    width: 27.813rem;
 }
 
 .leader-section p {
     color: var(--dark-gray);
-    margin-left: 20px;
     font-family: 'Alata';
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
     line-height: 25px;
+    position: relative;
+    right: 4rem;
+    top: 3rem;
+    width: 27rem;
     opacity: 0.4994;
 }
 
@@ -136,6 +143,7 @@ header h1 {
     margin-left: -1rem;
     margin-top: -6rem;
     margin-bottom: 7rem;
+    clip-path: polygon(0% 15%, 0 0, 15% 0%, 85% 0%, 100% 0, 100% 15%, 100% 40%, 78% 40%, 78% 100%, 0 100%, 0% 85%);
 }
 
 .interactive_mobile {
@@ -243,6 +251,7 @@ footer {
     background-color: var(--black);
     height: 250px;
     width: 100%;
+    max-width: 90rem;
 }
 
 footer .flex {
@@ -298,7 +307,7 @@ footer small {
     }
 
     header h1 {
-        font-size: 40px;
+        font-size: 2.5rem;
         font-style: normal;
         font-weight: 300;
         line-height: 38px;
@@ -307,18 +316,16 @@ footer small {
     }
 
     .box-line {
-        width: 327px;
+        width: 332px;
         height: 196px;
         position: relative;
         top: -7rem;
-        left: -144px;
-
+        left: -100px;
     }
 
     .logo {
         width: 144px;
         position: relative;
-
         z-index: 6;
         top: -12rem;
         left: -7rem;
@@ -331,7 +338,7 @@ footer small {
     .interactive_mobile {
         display: block;
         margin-top: 3.5rem;
-        margin-left: -38px;
+        margin-left: 0px;
         height: 224px;
         width: 327px;
     }
@@ -344,22 +351,26 @@ footer small {
 
     .leader-section h2 {
         font-family: Josefin Sans;
-        font-size: 32px;
+        font-size: 2rem;
         font-style: normal;
         font-weight: 300;
         line-height: 32px;
         text-align: center;
-        width: 279px;
+        position: relative;
+        left: 0;
+        width: 17.438rem;
     }
 
     .leader-section p {
         font-family: Alata;
-        font-size: 15px;
+        font-size: 0.938rem;
         font-style: normal;
         font-weight: 400;
         line-height: 25px;
         text-align: center;
-        width: 279px;
+        position: relative;
+        left: 0;
+        width: 16rem;
     }
 
     /********* MOBILE NAVIGATION ******************/
@@ -381,7 +392,7 @@ footer small {
         animation: cubic-bezier(0.165, 0.84, 0.44, 1);
         flex-direction: column;
         font-family: Josefin Sans;
-        font-size: 24px;
+        font-size: 1.5rem;
         font-style: normal;
         font-weight: 300;
         line-height: 25px;
@@ -404,7 +415,6 @@ footer small {
 
     .menu .show {
         display: none;
-
     }
 
     .menu li {
@@ -443,19 +453,19 @@ footer small {
         color: var(--white);
         text-align: left;
         text-decoration: none;
-        font-size: 16px;
+        font-size: 1rem;
     }
 
     .creation h2 {
         text-align: center;
         font-family: Josefin Sans;
-        font-size: 32px;
+        font-size: 2rem;
         font-style: normal;
         font-weight: 300;
         line-height: 32px;
-        margin-top: 1rem;
+        margin-top: 6rem;
         margin-bottom: 7rem;
-        margin-right: 1rem;
+        margin-right: 5rem;
     }
 
 
@@ -465,9 +475,9 @@ footer small {
         margin-top: -4rem;
         margin-left: 7rem;
         background-color: transparent;
-            cursor: pointer;
-            padding: 10px;
-            width: 160px;
+        cursor: pointer;
+        padding: 10px;
+        width: 160px;
     }
 
     .creation-flex{
@@ -485,7 +495,7 @@ footer small {
         margin: 3rem 0 0 2rem;
         font-family: 'Josefin Sans', sans-serif;
         font-weight: 300;
-        font-size: 25px;
+        font-size: 1.563rem;
     }
 
     .box {
@@ -527,7 +537,7 @@ footer small {
     }
 
     footer {
-        width: 375px;
+        width: 100%;
         height: 470px;
     }
 
@@ -544,12 +554,12 @@ footer small {
         flex-direction: column;
         justify-content: center;
         position: relative;
-        left: 5rem;
+        left: 2rem;
+        align-items: center;
     }
 
     footer ul.social {
         display: flex;
         justify-content: center;
     }
-
 }
