@@ -19,7 +19,7 @@
 ### Links
 
 - Solution URL: (https://github.com/EAguayodev/frontendmentor-loopstudios-landing-page)
-- Live Site URL: (https://frontendmentor-loopstudios-landing-page-mu.vercel.app/)
+- Live Site URL: [Netlify](https://loopstudios-landing-page-1.netlify.app/)
 
 
 ### Built with
@@ -107,6 +107,4 @@ For continued development I plan along the way to do the following:
 
 ## Author
 
-- Website - [Eric Aguayo Email Marketer | Content editor portfolio](https://www.ericaguayo.com)
-- Frontend Mentor - [@EAguayodev](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/)
+- Frontend Mentor - [@EAguayodev](https://www.frontendmentor.io/profile/EAguayodev)
