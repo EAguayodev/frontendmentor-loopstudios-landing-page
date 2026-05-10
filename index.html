@@ -5,21 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Frontend Mentor | Loopstudios landing page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <script defer src="js/main.js"></script>
 </head>
 <body>
   <header>
-    <nav class="navbar">
-      <a href="index.html">
+    <nav class="navbar" role="navigation">
+      <a href="index.html" aria-label="loopstudios logo">
         <img class="logo" src="images/logo.svg" alt="logo">
       </a>
 
-      <button type="button" class="hamburger" id="hamburger">
+      <button type="button" class="hamburger" id="hamburger" aria-label="menu" aria-controls="menu-list" aria-expanded="false">
         <img class="open" id="icon-open" src="images/icon-hamburger.svg" alt="hamburger">
       </button>
 
-      <ul class="menu show" id="menu-list">
+      <ul class="menu show" id="menu-list" role="menu">
         <img class="icon-close" id="icon-close" src="images/icon-close.svg" alt="close">
         <li>
           <a href="#about">
